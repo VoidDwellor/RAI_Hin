@@ -1,13 +1,11 @@
-#include<stdio.h>
-#include<math.h>
-
-//15 Minute quizzes :
-
 //1. Machine laguage is a lowest from of coding language that consists of only binary.
 
 //2. 2048
 
 //3.
+#include<stdio.h>
+#include<math.h>
+
 int main()
 {
     printf("Programming : %c\n", 'A');
