@@ -7,4 +7,5 @@ int main()
     printf("My point is : %d\n", 20+34+30);
     printf("Grade : %c\n", 'A');
     printf("GPA : %f", 3.99);
+    return 0;
 }
