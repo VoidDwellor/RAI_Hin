@@ -4,12 +4,12 @@
 
 //3.
 #include<stdio.h>
-#include<math.h>
+#include<string.h>
 
-/*
 int main()
 {
-    int a, b, c, d, e;
+    char a, b, c, d;
+    int e;
     printf("Programming : ");
     scanf("%s", &a);
     printf("Drawing : ");
@@ -20,18 +20,5 @@ int main()
     scanf("%s", &d);
     printf("GPS : ");
     scanf("%d", &e);
-    return 0;
-}
-*/
-
-int main()
-{
-    int a, b, c;
-    printf("First value : ");
-    scanf("%d", &a);
-    printf("Second value : ");
-    scanf("%d", &b);
-    c = a + b;
-    printf("%d + %d = %d\n");
     return 0;
 }
