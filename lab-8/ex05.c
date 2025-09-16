@@ -22,7 +22,7 @@ int sum_odd(){
             sum_odd += inp[i];
         }
         i++;
-    } while (i<num);++
+    } while (i<num);
     return sum_odd;
 }
 
@@ -36,6 +36,6 @@ int main(){
         scanf("%d", &inp[i]);
         i++;
     } while (i<num);
-    printf("Output: \n Sum of even number: %d\nSum of odd number: %d\n", sum_even(), sum_odd());
+    printf("Output: \nSum of even number: %d\nSum of odd number: %d\n", sum_even(), sum_odd());
 }
 
